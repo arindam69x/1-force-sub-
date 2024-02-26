@@ -54,6 +54,12 @@
       "value": "",
       "required": false
     },
+    "START_PIC": {
+            "description": "Your Bot start cmd Pic from @MT_TelegraPH_Bot",
+            "value": "",
+            "required": false
+        }
+    },
     "PROTECT_CONTENT": {
       "description": "Protect contents from getting forwarded",
       "value": "False",
