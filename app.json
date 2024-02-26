@@ -56,16 +56,14 @@
     },
     "START_PIC": {
             "description": "Your Bot start cmd Pic from @MT_TelegraPH_Bot",
-            "value": "",
+            "value": "https://graph.org/file/4b306f4b15c23a8f22e58.jpg",
             "required": false
-        }
     },
     "PROTECT_CONTENT": {
       "description": "Protect contents from getting forwarded",
       "value": "False",
       "required": false
-    }
-  },
+   },
   "buildpacks": [
     {
       "url": "heroku/python"
