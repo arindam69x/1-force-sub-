@@ -37,6 +37,10 @@
       "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
       "value": "-1001837942545"
     },
+    "AUTH_CHANNEL": {
+            "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
+            "required": false
+        },
     "FORCE_SUB_CHANNEL":{
       "description": "id of the channel or group, if you want enable force sub feature else put 0",
       "value": "0"
