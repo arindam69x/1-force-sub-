@@ -6,24 +6,24 @@
     "file",
     "sharing"
   ],
-  "repository": "https://github.com/arindam69x/1-force-sub-",
+  "repository": "https://github.com/arindam69x/4-multi-force-sub",
   "logo": "https://ibb.co/FgPVtzw",
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
-      "value": "6607973704:AAEfOQW-RCC8gUegfoAoalAvscQuta_bQSY"
+      "value": ""
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "6885162066"
+      "value": "1250450587"
     },
     "APP_ID":{
       "description": "your app id, take it from my.telegram.org",
-      "value": "22814213"
+      "value": ""
     },
     "DATABASE_URL": {
       "description": "Paste your mongo db url",
-      "value": "mongodb+srv://alienufowala:kishan@cluster0.wrwmsil.mongodb.net/"
+      "value": "url"
     },
     "DATABASE_NAME":{
       "description": "Enter your DATABASE_NAME ",
@@ -31,17 +31,17 @@
     },
     "API_HASH":{
       "description": "your api hash, take it from my.telegram.org",
-      "value": "95c24d2f83adc16e01682afab0b5d413"
+      "value": ""
     },
     "CHANNEL_ID":{
       "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
-      "value": "-1001837942545"
+      "value": "-100"
     },
-    "AUTH_CHANNEL": {
-            "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
-            "required": false
-        },
-    "FORCE_SUB_CHANNEL":{
+    "FORCE_SUB_CHANNEL_1":{
+      "description": "id of the channel or group, if you want enable force sub feature else put 0",
+      "value": "0"
+    },
+    "FORCE_SUB_CHANNEL_2":{
       "description": "id of the channel or group, if you want enable force sub feature else put 0",
       "value": "0"
     },
@@ -58,16 +58,12 @@
       "value": "",
       "required": false
     },
-    "START_PIC": {
-            "description": "Your Bot start cmd Pic from @MT_TelegraPH_Bot",
-            "value": "https://graph.org/file/4b306f4b15c23a8f22e58.jpg",
-            "required": false
-    },
     "PROTECT_CONTENT": {
       "description": "Protect contents from getting forwarded",
       "value": "False",
       "required": false
-   },
+    }
+  },
   "buildpacks": [
     {
       "url": "heroku/python"
@@ -80,4 +76,3 @@
     }
   }
 }
-
